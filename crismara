@@ -1,26 +1,32 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt-br">
 <head>
-<link real=stylesheet"href="style.css"
-    <meta charset="UTF-8">
+<link real="stylesheet"href="style.css"
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Agrinho - Agro Forte</title>
+    <!-- Link para o arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Imagem Fixa no Início do Site -->
+    <div class="imagem-fixa-topo">
+        <img src="https://unsplash.com" alt="Campo de plantação verde">
+    </div>
+
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Agro<span>Forte</span></h1>
+                <h1>agro<span>forte</span></h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#pilares">Pilares</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#inicio">início</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#pilares">pilares</a></li>
+                    <li><a href="#galeria">galeria</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,92 +34,193 @@
 
     <section id="inicio" class="hero">
         <div class="hero-content">
-            <h2>O Futuro Sustentável Já Começou</h2>
-            <p>Conectando a tecnologia do amanhã com a força do campo de hoje.</p>
-            <a href="#sobre" class="btn">Explorar Projeto</a>
+            <h2>o futuro sustentável já começou</h2>
+            <p>conectando a tecnologia do amanhã com a força do campo de hoje.</p>
+            <a href="#sobre" class="btn">explorar projeto</a>
         </div>
     </section>
 
     <section id="sobre" class="sobre-section">
         <div class="container">
-            <h2>A Força do Nosso Agronegócio</h2>
-            <p>O projeto <strong>Agrinho - Agro Forte</strong> mostra como a tecnologia e a preservação ambiental caminham juntas. O campo não apenas alimenta o mundo, mas também impulsiona a economia com inovação, drones, inteligência artificial e muito respeito à terra.</p>
+            <h2>a força do nosso agronegócio</h2>
+            <p>o projeto <strong>agrinho - agro forte</strong> mostra como a tecnologia e a preservação ambiental caminham juntas. o campo não apenas alimenta o mundo, mas também impulsiona a economia com inovação, drones, inteligência artificial e muito respeito à terra.</p>
             
+            <!-- Botões de redirecionamento para reportagens reais -->
+            <div class="botoes-reportagem">
+                <button class="btn-reportagem" data-url="https://globo.com">Ler Reportagem no G1 Agro</button>
+                <button class="btn-reportagem" data-url="https://globo.com">Ver Notícias na Globo Rural</button>
+            </div>
+
             <div class="numeros-grid">
                 <div class="numero-item">
                     <h3>1º</h3>
-                    <p>Em sustentabilidade no campo</p>
+                    <p>em sustentabilidade no campo</p>
                 </div>
                 <div class="numero-item">
                     <h3>100%</h3>
-                    <p>Focado no futuro tecnológico</p>
-                </div>
-                <div class="numero-item">
-                    <h3>Milhões</h3>
-                    <p>De vidas alimentadas diariamente</p>
+                    <p>focado no futuro</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="pilares" class="pilares-section">
-        <div class="container">
-            <h2 class="titulo-secao">Nossos Pilares</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="icone">🌱</div>
-                    <h3>Sustentabilidade</h3>
-                    <p>Técnicas de plantio direto e rotação de culturas que protegem o solo e economizam água.</p>
-                </div>
-                <div class="card">
-                    <div class="icone">🛸</div>
-                    <h3>Tecnologia</h3>
-                    <p>Drones e sensores monitoram a saúde da lavoura em tempo real, evitando desperdícios.</p>
-                </div>
-                <div class="card">
-                    <div class="icone">🚜</div>
-                    <h3>Produtividade</h3>
-                    <p>Máquinas modernas e processos inteligentes garantem colheitas recordes para o país.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="galeria" class="galeria-section">
-        <div class="container">
-            <h2>O Agro em Imagens</h2>
-            <div class="galeria-grid">
-                <div class="galeria-item">
-                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=600&auto=format&fit=crop" alt="Plantação tecnológica">
-                </div>
-                <div class="galeria-item">
-                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=600&auto=format&fit=crop" alt="Trator no campo">
-                </div>
-                <div class="galeria-item">
-                    <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop" alt="Brotos verdes">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contato" class="contato-section">
-        <div class="container">
-            <h2>Faça Parte do Movimento</h2>
-            <p>Deixe sua mensagem ou dúvida sobre a força do agro sustentável!</p>
-            <form class="formulario">
-                <input type="text" placeholder="Seu Nome" required>
-                <input type="email" placeholder="Seu E-mail" required>
-                <textarea placeholder="Sua Mensagem ou Ideia para o Agrinho..." rows="5" required></textarea>
-                <button type="submit" class="btn">Enviar Mensagem</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Projeto Agrinho - Tema: Agro Forte. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
 </body>
 </html>
+Use o código com cuidado.🎨 Código CSS (style.css)css/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da tela em verde claro */
+body {
+    background-color: #e8f5e9; 
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Imagem Fixa no Topo */
+.imagem-fixa-topo {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.imagem-fixa-topo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Títulos com cor verde escuro */
+h1, h2, h3 {
+    color: #1b5e20; 
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo h1 span {
+    color: #4caf50;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+/* Seções */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #c8e6c9;
+    margin-bottom: 30px;
+}
+
+.sobre-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.sobre-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b5e20;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.botoes-reportagem {
+    margin: 25px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-reportagem {
+    padding: 12px 24px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-reportagem:hover {
+    background-color: #1b5e20;
+}
+
+/* Grid de Números */
+.numeros-grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.numero-item {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-left: 5px solid #1b5e20;
+    flex: 1;
+}
+Use o código com cuidado.⚡ Código JavaScript / Script (script.js)javascript// Aguarda a página carregar completamente
+document.addEventListener("DOMContentLoaded", function() {
+    
+    // Seleciona todos os botões de reportagem
+    const botoes = document.querySelectorAll('.btn-reportagem');
+
+    // Adiciona a função de clique em cada um deles
+    botoes.forEach(botao => {
+        botao.addEventListener('click', function() {
+            // Pega o link real guardado no atributo 'data-url'
+            const urlReal = this.getAttribute('data-url');
+            
+            // Abre a reportagem real em uma nova aba do navegador
+            window.open(urlReal, '_blank');
+        });
+    });
+    
+});
