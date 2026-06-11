@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link real=stylesheet"href="style.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Agro Forte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Agro<span>Forte</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>O Futuro Sustentável Já Começou</h2>
+            <p>Conectando a tecnologia do amanhã com a força do campo de hoje.</p>
+            <a href="#sobre" class="btn">Explorar Projeto</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <h2>A Força do Nosso Agronegócio</h2>
+            <p>O projeto <strong>Agrinho - Agro Forte</strong> mostra como a tecnologia e a preservação ambiental caminham juntas. O campo não apenas alimenta o mundo, mas também impulsiona a economia com inovação, drones, inteligência artificial e muito respeito à terra.</p>
+            
+            <div class="numeros-grid">
+                <div class="numero-item">
+                    <h3>1º</h3>
+                    <p>Em sustentabilidade no campo</p>
+                </div>
+                <div class="numero-item">
+                    <h3>100%</h3>
+                    <p>Focado no futuro tecnológico</p>
+                </div>
+                <div class="numero-item">
+                    <h3>Milhões</h3>
+                    <p>De vidas alimentadas diariamente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pilares" class="pilares-section">
+        <div class="container">
+            <h2 class="titulo-secao">Nossos Pilares</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="icone">🌱</div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Técnicas de plantio direto e rotação de culturas que protegem o solo e economizam água.</p>
+                </div>
+                <div class="card">
+                    <div class="icone">🛸</div>
+                    <h3>Tecnologia</h3>
+                    <p>Drones e sensores monitoram a saúde da lavoura em tempo real, evitando desperdícios.</p>
+                </div>
+                <div class="card">
+                    <div class="icone">🚜</div>
+                    <h3>Produtividade</h3>
+                    <p>Máquinas modernas e processos inteligentes garantem colheitas recordes para o país.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria-section">
+        <div class="container">
+            <h2>O Agro em Imagens</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=600&auto=format&fit=crop" alt="Plantação tecnológica">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=600&auto=format&fit=crop" alt="Trator no campo">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop" alt="Brotos verdes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <h2>Faça Parte do Movimento</h2>
+            <p>Deixe sua mensagem ou dúvida sobre a força do agro sustentável!</p>
+            <form class="formulario">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Sua Mensagem ou Ideia para o Agrinho..." rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Projeto Agrinho - Tema: Agro Forte. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
