@@ -1,0 +1,302 @@
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f7faf8;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #113327;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.logo h1 span {
+    color: #88c057;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #88c057;
+}
+
+/* HERO BANNER */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1470&auto=format&fit=crop') no-repeat center center/cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h2 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #88c057;
+    color: #113327;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a3dc72;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(136, 192, 87, 0.4);
+}
+
+/* SEÇÃO SOBRE E NÚMEROS */
+.sobre-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.sobre-section h2 {
+    color: #113327;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.sobre-section p {
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+    font-size: 1.15rem;
+    color: #555;
+}
+
+.numeros-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.numero-item h3 {
+    font-size: 3rem;
+    color: #88c057;
+    margin-bottom: 5px;
+}
+
+.numero-item p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #113327;
+}
+
+/* PILARES (CARDS) */
+.pilares-section {
+    padding: 80px 0;
+    background-color: #eef4f0;
+    text-align: center;
+}
+
+.pilares-section h2 {
+    color: #113327;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.cards-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    flex: 1;
+    min-width: 280px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card .icone {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #113327;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+/* GALERIA DE FOTOS */
+.galeria-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.galeria-section h2 {
+    color: #113327;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.galeria-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria-item {
+    flex: 1;
+    min-width: 280px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.08);
+}
+
+/* FORMULÁRIO DE CONTATO */
+.contato-section {
+    padding: 80px 0;
+    background-color: #113327;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contato-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.contato-section p {
+    margin-bottom: 40px;
+    color: #a3dc72;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #0b2219;
+    color: #8da399;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.95rem;
+}
+
+/* RESPONSIVIDADE (CELULAR) */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+    .cards-grid, .galeria-grid, .numeros-grid {
+        flex-direction: column;
+    }
+    .numero-item {
+        margin-bottom: 25px;
+    }
+}
